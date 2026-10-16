@@ -1,0 +1,11 @@
+services:
+  app:
+    image: 'ghcr.io/gi-org-pl/pope-discord-bot'
+    build:
+      context: .
+      target: development
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ./node_modules:/app/node_modules

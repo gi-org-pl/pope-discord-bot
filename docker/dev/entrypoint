@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+npm install
+
+mkdir -p src/logs
+[ -f src/logs/pope.json ] || echo '[]' > src/logs/pope.json
+[ -f src/logs/wrapped.json ] || echo '[]' > src/logs/wrapped.json
+[ -f src/logs/flags.json ] || echo '{ "good_day_is_typing": false }' > src/logs/flags.json
+
+npm run start:dev
