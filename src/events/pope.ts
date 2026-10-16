@@ -1,7 +1,7 @@
 import { Client, Message, AttachmentBuilder } from "discord.js"
 import { Emoji, Emojis, PopeEntry, default_pope_entry, WrappedEntry, default_wrapped_entry } from "src/utils/config"
 import { error } from "src/utils/error_handler"
-import { Parser } from "expr-eval"
+import { Parser } from "expr-eval-fork"
 import fs from "fs"
 import path from "path"
 
