@@ -1,3 +1,5 @@
+![pope-discord-bot header](https://raw.githubusercontent.com/gi-org-pl/pope-discord-bot/main/.github/image/header.png)
+
 # Pope Discord Bot
 
 The Pope bot is a discord app aiming to increase the overall activity of the server, as well as add a way for all members to compete with each other.
