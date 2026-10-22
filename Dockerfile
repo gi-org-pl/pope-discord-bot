@@ -1,4 +1,4 @@
-FROM node:24-alpine AS alpine-node-base
+FROM node:24.22.1-alpine AS alpine-node-base
 RUN apk --no-cache add curl
 ENV TZ="Europe/Warsaw"
 
