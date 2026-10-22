@@ -1,6 +1,6 @@
 {
   "name": "polish-pope-on-discord",
-  "version": "3.10.1",
+  "version": "3.10.2",
   "description": "Discord bot giving points for saying \"2137\" at 9.37pm!",
   "license": "MIT",
   "author": "LunarWanderer",
@@ -19,14 +19,14 @@
   "dependencies": {
     "@types/node-schedule": "^2.1.8",
     "discord.js": "^14.27.0",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.4.2",
     "expr-eval-fork": "^3.0.3",
     "node-schedule": "^2.1.1",
     "pagination.djs": "^4.0.18",
-    "tsx": "^4.21.0",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
   "allowScripts": {
-    "esbuild@0.27.2": true
+    "esbuild@0.28.2": true
   }
 }
